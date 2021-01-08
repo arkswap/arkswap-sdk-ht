@@ -1,11 +1,11 @@
-# Akrswap SDK
+# Arkswap SDK
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Actions Status](https://github.com/AkrSwap/akrswap-sdk/workflows/CI/badge.svg)](https://github.com/AkrSwap/akrswap-sdk)
-[![npm version](https://img.shields.io/npm/v/@akrswap/sdk/latest.svg)](https://www.npmjs.com/package/@akrswap/sdk/v/latest)
+[![Actions Status](https://github.com/arkswap/arkswap-sdk/workflows/CI/badge.svg)](https://github.com/arkswap/arkswap-sdk)
+[![npm version](https://img.shields.io/npm/v/@arkswap/sdk/latest.svg)](https://www.npmjs.com/package/@arkswap/sdk/v/latest)
 
 
-In-depth documentation on this SDK is available at [akrswap.org](https://akrswap.org/docs).
+In-depth documentation on this SDK is available at [arkswap.org](https://arkswap.org/docs).
 
 ## Running tests
 
@@ -14,13 +14,13 @@ To run the tests, follow these steps. You must have at least node v10 and [yarn]
 First clone the repository:
 
 ```sh
-git clone https://github.com/AkrSwap/akrswap-sdk.git
+git clone https://github.com/arkswap/arkswap-sdk.git
 ```
 
-Move into the akrswap-sdk working directory
+Move into the arkswap-sdk working directory
 
 ```sh
-cd akrswap-sdk/
+cd arkswap-sdk/
 ```
 
 Install dependencies
