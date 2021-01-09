@@ -40,8 +40,8 @@ var Rounding;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(Rounding || (Rounding = {}));
 
-var FACTORY_ADDRESS = '0x3e3a626e3f209cfa5ce68658df29c50701467b3b';
-var INIT_CODE_HASH = '0x3996f1f2cc7b02b441c83fe492d5fed15717f1f9100282d549dbd7180ef274d0';
+var FACTORY_ADDRESS = '0x97d5be3ff7d33d8089c0850dcd474c2262631dbd';
+var INIT_CODE_HASH = '0545055bd8ef4c96fca6bec2be97a58d04f67979a479b9c8694be1d40d9e2305';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
@@ -440,7 +440,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.ROPSTEN] = /*#__PURE__*/new Token(ChainId.ROPSTEN, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.RINKEBY] = /*#__PURE__*/new Token(ChainId.RINKEBY, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.GÖRLI] = /*#__PURE__*/new Token(ChainId.GÖRLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.KOVAN] = /*#__PURE__*/new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.HMAINNET] = /*#__PURE__*/new Token(ChainId.HMAINNET, '0xfb2c27b01ca6aa5149a44c98acb06e4ba04628be', 18, 'WHT', 'Wrapped HT'), _WETH[ChainId.HTESTNET] = /*#__PURE__*/new Token(ChainId.HTESTNET, '0xfb2c27b01ca6aa5149a44c98acb06e4ba04628be', 18, 'WHT', 'Wrapped HT'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.ROPSTEN] = /*#__PURE__*/new Token(ChainId.ROPSTEN, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.RINKEBY] = /*#__PURE__*/new Token(ChainId.RINKEBY, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.GÖRLI] = /*#__PURE__*/new Token(ChainId.GÖRLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.KOVAN] = /*#__PURE__*/new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'), _WETH[ChainId.HMAINNET] = /*#__PURE__*/new Token(ChainId.HMAINNET, '0x00e790baa7de3dc9de7790518a1d18f852fd9780', 18, 'WHT', 'Wrapped HT'), _WETH[ChainId.HTESTNET] = /*#__PURE__*/new Token(ChainId.HTESTNET, '0x00e790baa7de3dc9de7790518a1d18f852fd9780', 18, 'WHT', 'Wrapped HT'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
